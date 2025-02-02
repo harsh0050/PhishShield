@@ -1,0 +1,14 @@
+HEREBY IS THE ATTACHED FINETUNED AI MODEL WHICH WE TRAINED AND USED:
+https://huggingface.co/Shubh0904/autotrain-ot52s-j6gen
+
+
+REFERENCE :
+
+NLP MODEL USED FOR TRAINING: 
+GOOGLE BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+FOR DETAILED INFORMATION ABOUT THE MODEL PLEASE REFER THE FOLLOWING :
+https://github.com/google-research/bert
+
+MODEL IS TRAINED FOR TEXT CLASSIFICATION USING HUGGINGFACE AUTOTRAIN
+HERE IS THE ATTACHED DOCUMENTATION:
+https://huggingface.co/docs/autotrain/index

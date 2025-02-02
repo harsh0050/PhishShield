@@ -1,0 +1,6 @@
+flask
+flask-cors
+transformers
+requests
+bs4
+tf-keras

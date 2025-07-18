@@ -1,0 +1,14 @@
+aiohttp
+asyncio
+bs4
+Flask
+flask-cors
+google-genai
+pymongo
+requests
+selenium
+setuptools
+transformers
+urllib3
+dotenv
+tldextract

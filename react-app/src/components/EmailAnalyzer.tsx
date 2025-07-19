@@ -13,7 +13,7 @@ export default function EmailAnalyzer() {
     let emailTxt = document.getElementById("email-textarea")?.innerHTML;
     // console.log("emailTxt = " + emailTxt);
     // try {
-    const response = await fetch('http://127.0.0.1:5000/email', {  // Replace with your server's URL
+    const response = await fetch('http://192.168.33.10:5000/email', {  // Replace with your server's URL
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

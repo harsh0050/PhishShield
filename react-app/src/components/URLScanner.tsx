@@ -22,7 +22,7 @@ export default function URLScanner() {
     // console.log("emailTxt = " + emailTxt);
     // try {
     // console.log(url);
-    let reqUrl = 'http://192.168.33.10:5000/check_url?url='+url;
+    let reqUrl = 'http://192.168.33.33:5000/check_url?url='+url;
     const response = await fetch( reqUrl , {  // Replace with your server's URL
       method: 'GET',
       headers: {
@@ -31,6 +31,7 @@ export default function URLScanner() {
     });
 
     if (!response.ok) {
+      console.log(response)
       throw new Error('Failed to analyze email. Please try again.');
     }
 

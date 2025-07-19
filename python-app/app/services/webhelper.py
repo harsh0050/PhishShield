@@ -11,10 +11,9 @@ def get_screenshot(url: str) -> str:
     try:
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--headless")
-        # uc.
-        # chrome_options.add_argument("--window-size=1920:1080")
+        chrome_service = webdriver.ChromeService("usr/bin/chromedriver")
 
-        driver = webdriver.Chrome(options=chrome_options)
+        driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
         driver.get(url)
         time.sleep(2)
 

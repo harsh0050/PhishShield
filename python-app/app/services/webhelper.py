@@ -11,7 +11,7 @@ def get_screenshot(url: str) -> str:
     try:
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--headless")
-        chrome_service = webdriver.ChromeService("usr/bin/chromedriver")
+        chrome_service = webdriver.ChromeService("/usr/bin/chromedriver")
 
         driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
         driver.get(url)
